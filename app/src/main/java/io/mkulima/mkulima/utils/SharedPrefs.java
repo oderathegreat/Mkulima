@@ -1,4 +1,4 @@
-package io.mkulima.mkulima;
+package io.mkulima.mkulima.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

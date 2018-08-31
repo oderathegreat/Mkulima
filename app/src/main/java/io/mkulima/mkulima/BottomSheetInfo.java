@@ -11,10 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.rengwuxian.materialedittext.MaterialEditText;
 
+import io.mkulima.mkulima.utils.SharedPrefs;
 import lib.kingja.switchbutton.SwitchMultiButton;
 import mehdi.sakout.fancybuttons.FancyButton;
 
