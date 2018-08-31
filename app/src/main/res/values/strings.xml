@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mkulima</string>
+    <string name="title_activity_main">Map</string>
+    <string name="long_content">Expenditures from nursery to harvesting include; Equipment’s, labor, Chemicals, Transport, purchasing seedlings/seeds. These prices vary depending on geographical location and need. But in Kenya to grow onions in 1 acre one requires roughly 80, 000-125, 000</string>
+    <string name="title_text">Cost Analysis</string>
+
+    <string-array name="switch_tabs">
+        <item>Acres</item>
+        <item>Hectares</item>
+    </string-array>
+
+    <string-array name="crops_entries">
+        <item>Maize</item>
+        <item>Beans</item>
+        <item>Sorghum</item>
+        <item>Millet</item>
+        <item>Sunflower</item>
+        <item>French Beans</item>
+    </string-array>
+</resources>
