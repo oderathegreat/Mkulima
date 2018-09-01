@@ -1,6 +1,7 @@
 package io.mkulima.mkulima;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomSheetDialogFragment;
@@ -29,16 +30,22 @@ public class BottomSheetInfo extends BottomSheetDialogFragment {
     }
     String measurement ="Acres";
     int selectedTab=0;
+    Typeface customFont;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+
+
+
         final View view = inflater.inflate(R.layout.bottom_sheet_layout, container, false);
         FancyButton btn = view.findViewById(R.id.btn_enter);
         final Spinner spinner=view.findViewById(R.id.spinnerCrops);
         final MaterialEditText edtLandSize = view.findViewById(R.id.inputLandSize);
         SwitchMultiButton switchMultiButton=view.findViewById(R.id.btnMeasurement);
         final TextView txtLandSize = view.findViewById(R.id.txtLandSize);
+        txtLandSize.setTypeface(customFont);
         final SharedPrefs prefs=new SharedPrefs(getActivity());
 
         edtLandSize.setText(prefs.getItem("size"));
