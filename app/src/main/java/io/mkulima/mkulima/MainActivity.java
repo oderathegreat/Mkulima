@@ -3,6 +3,7 @@ package io.mkulima.mkulima;
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.location.Location;
 import android.os.Build;
 import android.os.Looper;
@@ -46,11 +47,16 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     Location mLastLocation;
     FusedLocationProviderClient mFusedLocationClient;
     Marker mMarker;
+    Typeface customFont;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        customFont = Typeface.createFromAsset(getAssets(), "fonts/Quinone.otf");
+        customFont = Typeface.createFromAsset(getAssets(), "fonts/QuinoneOblique.otf");
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
