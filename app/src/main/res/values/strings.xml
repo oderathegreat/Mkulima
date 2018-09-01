@@ -10,6 +10,7 @@
     </string-array>
 
     <string-array name="crops_entries">
+        <item>Onion</item>
         <item>Maize</item>
         <item>Beans</item>
         <item>Sorghum</item>
