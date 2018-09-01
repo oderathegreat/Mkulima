@@ -25,7 +25,7 @@
         app:strokeRadius="5dp"
         app:strokeWidth="1dp"
         app:selectedTab="0"
-        app:selectedColor="#eb7b00"
+        app:selectedColor="#aedfe4"
         app:switchTabs="@array/switch_tabs"
         app:textSize="14sp" />
 
@@ -79,8 +79,8 @@
         android:paddingTop="10dp"
         fancy:fb_borderColor="#FFFFFF"
         fancy:fb_borderWidth="1dp"
-        fancy:fb_defaultColor="#7ab800"
-        fancy:fb_focusColor="#9bd823"
+        fancy:fb_defaultColor="#0a9044"
+        fancy:fb_focusColor="#bed73e"
         fancy:fb_iconPosition="left"
         fancy:fb_radius="8dp"
         fancy:fb_text="Submit Details"

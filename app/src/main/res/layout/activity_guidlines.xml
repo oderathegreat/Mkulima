@@ -12,7 +12,7 @@
         android:id="@+id/content_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_green_dark"
+        android:background="#bed738"
         android:clickable="true"
         android:onClick="toggle_contents"
         android:padding="10dp"
@@ -23,7 +23,7 @@
         android:id="@+id/title_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_dark"
+        android:background="#aedfe4"
         android:padding="10dp"
         android:text="@string/long_content"
         android:textColor="@android:color/white" />
